@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent" android:layout_width="match_parent">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+        <ToggleButton android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:text="ToggleButton" android:id="@+id/flagModeButton" android:textOff="Flag Mode: Off (Clicking Uncovers Cells)" android:textOn="Flag Mode: On (Clicking Places/Removes Flags)" android:layout_width="fill_parent" android:checked="false"></ToggleButton>
+    </LinearLayout>
+    <GridView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/boardGridView"></GridView>
+</LinearLayout>
